@@ -1,43 +1,23 @@
-# ProjectionLab Support Assistant
+# ProjectionLab Support Images
 
-This **private repository** contains the ProjectionLab Custom GPT knowledge base for internal support use. It includes real Q&A pairs designed to help support staff answer customer questions clearly and consistently.
+This **public repository** hosts images used in the ProjectionLab Support Assistant's knowledge base.  
 
----
-
-## 📦 Repository Structure
-
-- `knowledge/`
-  - `projectionlab_faq.md` – Primary Q&A file for Custom GPT knowledge upload
-- (no images in this repo)
+✅ Purpose:  
+Provide direct, reliable links for use in the Custom GPT knowledge file so support agents and chatbots can share clear, accurate UI visuals with users.
 
 ---
 
-## 📸 Images
+## 📦 Structure
 
-📌 **Note:** All images referenced in the knowledge file are hosted in a **separate public repository** to allow anonymous access and direct linking.
-
-Images are available here:
-
-🔗 [projectionlab-support-images (public)](https://github.com/ssansompl/projectionlab-support-images)
-
----
-
-## ✅ Purpose
-
-This content is designed to be used with [OpenAI's Custom GPT Builder](https://platform.openai.com/docs/guides/gpt-builder):
-
-- To assist internal staff in answering ProjectionLab questions
-- To ensure accurate, approved responses based on developer-provided guidance
+- `images/`
+  - `timeline-ui.png`
+  - `sabbatical-event.png`
+  - `social-security-income.png`
+  - (add new images here)
 
 ---
 
-## 🚀 Usage
+## ✅ Usage in Knowledge File
 
-1️⃣ Clone this repo  
-2️⃣ Update Q&A entries in `knowledge/projectionlab_faq.md`  
-3️⃣ Push changes as needed  
-
-✅ **When updating image references:**  
-- Make sure images are pushed to the **public image repo**.  
-- Use raw links in the markdown file in this format:
+In the private knowledge base repo (`projectionlab-support-assistant`), reference these images using **raw GitHub URLs**:
 
